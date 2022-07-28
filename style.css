@@ -1,0 +1,23 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.banner{
+    margin-top: 20px;
+}
+.carousel-item{
+    height: 80vh;
+    background-repeat: no-repeat scroll center scroll;
+    background-size: cover;
+}
+.carousel-caption{
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.carousel-control-prev{
+    margin-left: 100px;
+}
+.carousel-control-next{
+    margin-right: 100px;
+}
