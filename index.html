@@ -69,7 +69,7 @@
                     aria-label="Slide 4"></button>
             </div>
             <div class="carousel-inner">
-                <div class="carousel-item   active" data-bs-interval="10000">
+                <div class="carousel-item  active" data-bs-interval="10000">
                     <img src="images/cover/cover-4.png" class="d-block w-100 rounded" alt="...">
                     <div class="carousel-caption d-md-block">
                         <h5 class="text-white display-5 fw-semibold">Get Started Digital
@@ -145,7 +145,7 @@
         </div>
         <!-- card section  -->
     </section>
-    <div class="container">
+    <div class="container mt-4">
         <div class="row g-2">
             <div class="col-6">
                 <div class="card" style="max-width: 540px;">
@@ -260,6 +260,62 @@
     </div>
     </div>
     </div>
+    <!-- modal section  -->
+    <section class="container">
+        <div class="row register-section my-5 rounded-2">
+        <div class="col-8 d-flex text-center align-items-center
+        flex-column p-5">
+            <h1 class="text-white">Ready to join?</h1>
+            <p class="text-white"><small>It is a long established fact that a reader will be distracted by the
+                readable content of a page when looking at its layout.</small></p>
+        </div>
+        <!-- Button trigger modal -->
+        <div class="col-4 text-center d-flex align-items-center justify-content-center">
+            <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-outline-primary btn-lg bg-light">Register Now</button>
+            <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Sign up</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <div id="login-area" class="container">
+                <h3 class="login-title">Welcome to E-Learning</h3>
+                <div class="card">
+                  <h3 class="card-header bg-primary p-md-3 text-white">Login</h3>
+                  <div class="card-body">
+                    <form>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label d-flex justify-content-start">Email address</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          <div id="emailHelp" class="form-text d-flex justify-content-start">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputPassword1" class="form-label d-flex justify-content-start">Password</label>
+                          <input type="password" class="form-control d-flex justify-content-start" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3 form-check">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                          <label class="form-check-label d-flex justify-content-start" for="exampleCheck1">Check me out</label>
+                        </div>
+                        
+                      </form>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+        </div>
+        </div>
+    </section>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
